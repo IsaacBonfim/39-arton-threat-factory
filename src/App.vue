@@ -1,7 +1,7 @@
 <template>
   <VueHeader />
   <nav>
-    <router-link to="/">Home</router-link> |
+    | <router-link to="/">Home</router-link> |
     <router-link to="/about">Criador de Ameaças</router-link> |
     <router-link to="/vault">Cofre de Ameaças</router-link> |
   </nav>
@@ -41,6 +41,7 @@ body {
 #app {
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100vh;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,6 +52,7 @@ nav {
   border-bottom: 4px inset rgb(68, 2, 0);
   display: flex;
   height: 6vh;
+  justify-content: center;
 }
 
 nav a {
