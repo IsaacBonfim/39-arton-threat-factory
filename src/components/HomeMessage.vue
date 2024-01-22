@@ -51,7 +51,6 @@ export default {
 .home-img {
   margin: 2.5vb;
   max-width: 300px;
-  mix-blend-mode: multiply;
   width: 50%;
 }
 
