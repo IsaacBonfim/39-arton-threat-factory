@@ -69,7 +69,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(248, 232, 202, 0.62);
+  background: linear-gradient(145deg, rgb(230, 200, 200), rgb(255, 255, 255));
+  /* box-shadow:  20px 20px 60px rgb(217, 217, 217),
+    -20px -20px 60px rgb(255, 255, 255); */
   color: rgb(128, 20, 0);
 }
 
