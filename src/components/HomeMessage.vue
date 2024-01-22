@@ -33,7 +33,6 @@ export default {
   height: fit-content;
   margin: 2vb;
   min-height: 900px;
-  /* padding: 2vh 1vw; */
   width: 45vw;
 }
 
